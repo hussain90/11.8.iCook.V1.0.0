@@ -15,3 +15,7 @@ JAVA - http://geosoft.no/development/javastyle.html
 SQL - http://www.sqlstyle.guide/
 
 Android Studio - https://source.android.com/source/code-style */
+
+Reference the following link for assistance with the use and 
+installation of the program:
+>> http://athena.ecs.csus.edu/~icook131/ <<
