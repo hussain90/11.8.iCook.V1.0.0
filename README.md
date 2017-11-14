@@ -10,13 +10,13 @@ Please read the following before making any changes to the repositories:
 
 -----------------------------------------------------------------------------------
 
-/* Coding Style Guidelines
+Coding Style Guidelines
 
 JAVA - http://geosoft.no/development/javastyle.html
 
 SQL - http://www.sqlstyle.guide/
 
-Android Studio - https://source.android.com/source/code-style */
+Android Studio - https://source.android.com/source/code-style
 
 ------------------------------------------------------------------------------------
 
