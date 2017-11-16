@@ -26,12 +26,12 @@
 
     <ImageButton
         android:id="@+id/preferencesButton4"
-        android:layout_width="144dp"
-        android:layout_height="144dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:layout_marginEnd="30dp"
         android:layout_marginLeft="0dp"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="332dp"
+        android:layout_marginTop="336dp"
         android:adjustViewBounds="true"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
@@ -39,16 +39,16 @@
         app:layout_constraintLeft_toLeftOf="@+id/guideline4"
         app:layout_constraintRight_toLeftOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="@+id/background"
-        app:srcCompat="@drawable/btton4" />
+        app:srcCompat="@drawable/btton41" />
 
     <ImageButton
         android:id="@+id/recipesButton3"
-        android:layout_width="144dp"
-        android:layout_height="144dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:layout_marginLeft="28dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="332dp"
+        android:layout_marginTop="336dp"
         android:adjustViewBounds="true"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
@@ -56,16 +56,16 @@
         app:layout_constraintLeft_toLeftOf="@+id/guideline2"
         app:layout_constraintRight_toLeftOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/background"
-        app:srcCompat="@drawable/btton3" />
+        app:srcCompat="@drawable/btton31" />
 
     <ImageButton
         android:id="@+id/receiptButton1"
-        android:layout_width="144dp"
-        android:layout_height="144dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:layout_marginLeft="28dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="179dp"
+        android:layout_marginTop="178dp"
         android:adjustViewBounds="true"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
@@ -74,16 +74,16 @@
         app:layout_constraintLeft_toLeftOf="@+id/guideline2"
         app:layout_constraintRight_toLeftOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/background"
-        app:srcCompat="@drawable/btton1" />
+        app:srcCompat="@drawable/btton11" />
 
     <ImageButton
         android:id="@+id/pantryButton2"
-        android:layout_width="144dp"
-        android:layout_height="144dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:layout_marginEnd="30dp"
         android:layout_marginLeft="0dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="179dp"
+        android:layout_marginTop="178dp"
         android:adjustViewBounds="true"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
@@ -91,16 +91,19 @@
         app:layout_constraintLeft_toLeftOf="@+id/guideline4"
         app:layout_constraintRight_toLeftOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="@+id/background"
-        app:srcCompat="@drawable/btton2"
+        app:srcCompat="@drawable/btton21"
         tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/banner"
-        android:layout_width="0dp"
-        android:layout_height="99dp"
-        app:srcCompat="@drawable/banner"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="8dp" />
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/background"
+        app:srcCompat="@drawable/banner" />
 
     <ImageButton
         android:id="@+id/Button5Help"
@@ -135,13 +138,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.48958334" />
+        app:layout_constraintGuide_percent="0.505" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.5260417" />
+        app:layout_constraintGuide_percent="0.495" />
 
 </android.support.constraint.ConstraintLayout>
