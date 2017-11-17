@@ -4,6 +4,190 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.jordan.icook.RecipeActivity">
+    tools:context="com.example.jordan.icook.RecipeActivity"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="150dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="RECIPE:"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/Ingredient"
+            android:layout_width="150dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Name"
+            android:text="INGREDIENT:"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/Quantity"
+            android:layout_width="150dp"
+            android:layout_height="41dp"
+            android:text="QUANTITY:"
+            android:textSize="23sp"
+            android:layout_below="@+id/editText_Name"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/Instruction"
+            android:layout_width="170dp"
+            android:layout_height="41dp"
+            android:text="INSTRUCTIONS:"
+            android:textSize="23sp"
+            android:layout_below="@+id/editText_Ingredient4"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="42dp" />
+
+        <EditText
+            android:id="@+id/editText_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/Name" />
+
+        <EditText
+            android:id="@+id/editText_Ingredient1"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/Ingredient"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editText_Quantity1"
+            android:layout_width="40dp"
+            android:layout_height="41dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/Quantity"
+            android:layout_alignEnd="@+id/editText_Name" />
+
+        <EditText
+            android:id="@+id/editText_Ingredient2"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/editText_Ingredient1"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editText_Quantity2"
+            android:layout_width="42dp"
+            android:layout_height="41dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/editText_Quantity1"
+            android:layout_alignStart="@+id/editText_Quantity1" />
+
+        <EditText
+            android:id="@+id/editText_Ingredient3"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText_Ingredient2"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_Quantity3"
+            android:layout_width="42dp"
+            android:layout_height="41dp"
+            android:layout_alignEnd="@+id/editText_Quantity2"
+            android:layout_below="@+id/editText_Ingredient2"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_Ingredient4"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText_Ingredient3"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_Quantity4"
+            android:layout_width="42dp"
+            android:layout_height="41dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/editText_Quantity3"
+            android:layout_alignStart="@+id/editText_Quantity3" />
+
+        <EditText
+            android:id="@+id/editText_Ingredient5"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText_Ingredient4"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_Quantity5"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_alignEnd="@+id/editText_Instruction"
+            android:layout_below="@+id/editText_Ingredient4"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_Instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText_Quantity1"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Instruction"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/button_Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="119dp"
+            android:text="ADD RECIPE"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/button_View" />
+
+        <Button
+            android:id="@+id/button_View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button_Add"
+            android:layout_alignBottom="@+id/button_Add"
+            android:layout_toEndOf="@+id/Instruction"
+            android:text="VIEW ALL" />
+
+        <Button
+            android:id="@+id/button_Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/button_Add"
+            android:layout_below="@+id/button_View"
+            android:text="DELETE RECIPE" />
+
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
