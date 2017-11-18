@@ -1,0 +1,10 @@
+bananas 2
+apples 5
+milk 2
+eggs 12
+bread 6
+onions 2
+tuna 1
+cereal 4
+salt 3
+chicken 5
