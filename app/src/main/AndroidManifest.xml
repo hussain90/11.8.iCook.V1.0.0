@@ -3,7 +3,7 @@
     package="com.example.jordan.icook">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -24,12 +24,15 @@
             android:name=".PantryActivity"
             android:label="@string/title_activity_pantry"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".HelpActivity" />
         <activity android:name=".ListPantry" />
         <activity android:name=".RecipeActivity" />
-        <activity android:name=".PreferencesActivity"/>
-        <meta-data android:name="com.google.android.gms.vision.DEPENDENCES"
-            android:value="ocr"/>
+        <activity android:name=".PreferencesActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCES"
+            android:value="ocr" />
+
+        <activity android:name=".HelpActivity"></activity>
     </application>
 
 </manifest>
